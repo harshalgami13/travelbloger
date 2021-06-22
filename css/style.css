@@ -1,0 +1,625 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine&family=Allura&family=Great+Vibes&family=Inconsolata:wght@200;400&family=Lato:wght@100;300;400&display=swap');
+
+.navbar-first{
+    background: url(../assets/theme-design/navbar.png) no-repeat center;
+    background-size: cover;
+    max-height: 70px;
+    line-height: 50px;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar-first ul{
+    clear: both;
+    color: var(--main-text-color);
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    width: 100%;
+}
+.navbar-first ul li a:hover{
+    color: var(--secondary-color);
+}
+.navbar-first ul li a{
+    color: var(--main-text-color);
+    text-decoration: none;
+    padding: 13.5px 17.5px;
+    position: relative;
+}
+.navbar-first .right-side ul li{
+    font-size: 14px;
+}
+.navbar-first .right-side ul li a{
+    color: var(--main-text-color);
+    text-decoration: none;
+    padding: 1px 1px;
+    margin: 0px 10px;
+    position: relative;
+}
+.navbar-first .right-side ul li a:hover{
+    color: var(--secondary-color);
+}
+.navbar-second{
+    padding: 25px;
+}
+.navbar-second img{
+    margin: 10px auto 10px auto;
+    width: 60%;
+    object-fit: cover;
+    display: block
+}
+.navbar-third::before{
+    content: ' ';
+    display: table;
+    margin: 5px 0;
+    background-image: url(../assets/logo-watermark/Category-Menu-hr.png);
+    width: 100%;
+    height: 1px;
+}
+.navbar-third::after{
+    content: ' ';
+    display: table;
+    margin: 5px 0 1px 0;
+    background-image: url(../assets/logo-watermark/Category-Menu-hr.png);
+    width: 100%;
+    height: 1px;
+}
+.navbar-third ul li a{
+    color: var(--main-text-color);
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    width: 100%;
+    text-decoration: none;
+}
+.navbar-third ul li a:hover{
+    color: var(--secondary-color);
+}
+.main1 a img{
+    width: 100%;
+    object-fit: cover;
+    display: block 
+}
+.main2{
+    background-color: #fbfaf9;
+}
+.main2::before{
+    background-image: url(../assets/theme-design/hori-line.png);
+    content: '';
+    display: table;
+    width: 100%;
+    height: 10px;
+    margin-bottom: 50px;
+}
+.main2::after{
+    background-image: url(../assets/theme-design/hori-line.png);
+    content: '';
+    display: table;
+    width: 100%;
+    height: 10px;
+    margin-top: 50px;
+}
+.main2 .main2-title span{
+    font-size: 70px;
+    /* font-family: 'Allura', cursive; */
+    font-family: 'Great Vibes', cursive;
+    font-weight: 100;
+    color: var(--secondary-text-color);
+}
+.main2 .main2-title{
+    font-size: 25px;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+.main2 .blog-box{
+    border: 1px solid var(--light-gray-color);
+    padding: 5px;
+}
+.main2 .blog-box1{
+    max-width: 300px;
+    height: 100%;
+    margin: 5px;
+    border: 1px solid transparent;
+    background: url(../assets/theme-design/theme-2.jpg) no-repeat;
+    background-size: 320px 415px;
+    background-position: center;
+}
+.main2 .blog-box:hover{
+    border-color: var(--primary-color);
+}
+.main2 .blog-box img{
+    width: 100%;
+    margin: 22px auto 15px;
+    display: block;
+}
+.main2 .blog-box h3{
+    font-family: 'Inconsolata', monospace;
+    font-size: 18px;
+    letter-spacing: .5px;
+    font-weight: 100;
+    margin: 0 auto 10px;
+    max-width: 275px;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.main2 .blog-box a.link{
+    color: #c5b8a8;
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 25px;
+}
+.main3{
+    margin: 50px 0;
+}
+.main3 .left-side .post-card{
+    background: url(../assets/theme-design/theme-1.jpg) repeat-x;
+    justify-content: space-between;
+    padding: 30px;
+    height: 100%;
+}
+.main3 .left-side .post-card .left-side img{
+    width: 100%;
+    margin: 2px auto 5px;
+    display: block;
+}
+.main3 .left-side .post-card .right-side .stamp-2{
+    position: absolute;
+    opacity: 0.4;
+    right: 0;
+    top: 0;
+}
+.main3 .left-side .post-card .right-side{
+    align-self: center;
+}
+.main3 .left-side .post-card .right-side .title{
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    line-height: 28px;
+    text-align: center;
+    margin: 30px 0 15px;
+    font-weight: 100;
+}
+.main3 .left-side .post-card .right-side .post-details{
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    margin-bottom: 15px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main3 .left-side .post-card .right-side a{
+    background: transparent;
+    border: 1px solid transparent;
+    color: #977e5c;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 5px 10px;
+    width: 200px;
+    text-decoration: none;
+    margin: 0 auto;
+    display: block;
+}
+.main3 .left-side .post-card .right-side a:hover{
+    border: 1px solid var(--primary-color);
+    color: var(--black-color);
+}
+.main3 .main-right-side{
+    background-color: #fbf9f7;
+}
+.main3 .main-right-side .title span{
+    font-size: 71px;
+    font-family: 'Great Vibes', cursive;
+    line-height: 15px;
+    letter-spacing: 2px;
+    margin-right: 10px;
+    position: relative;
+    bottom: -15px;
+    color: var(--secondary-text-color);
+}
+.main3 .main-right-side .title{
+    font-size: 25px;
+    font-family :'Inconsolata', monospace;
+    letter-spacing: 1.5px;
+    margin: 0;
+    margin-top: 10px;
+    font-weight: 300;
+}
+.main3 .main-right-side .post-box a img{
+    width: 80%;
+    margin: 0px auto 15px;
+    display: block;
+}
+.main3 .main-right-side .post-box .details{
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    margin: 0 auto;
+    width: 95%;
+    letter-spacing: 1.22px;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+.main3 .main-right-side .post-box .next-detail{
+    margin: 0 auto;
+    width: 95%;
+    margin-bottom: 15px;
+}
+.main3 .main-right-side .post-box a .next-details{
+    color: var(--secondary-color);
+    font-size: 15px;
+    letter-spacing: 1.2px;
+    margin: 0px 0;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--secondary-color);
+}
+.main3 .main-right-side .post-box a .next-details:hover{
+    color: var(--main-text-color);
+}
+
+
+
+
+
+.main5{
+    padding: 50px 0;
+    margin: 0 auto;
+}
+.main5 .container{
+    border: 1px solid var(--light-gray-color);
+    padding: 10px;
+}
+.main5 .container1{
+    background: url(../assets/theme-design/theme-1.jpg) repeat-x;
+    width: 100%;
+    
+}
+.main5 .container .left-side{
+    margin: 70px auto 50px;
+}
+.main5 .container .left-side img.blog-post{
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+}
+.main5 .container .right-side{
+    margin: 70px auto 50px;
+}
+.main5 .container .right-side img{
+    position: absolute;
+    right: 0;
+    opacity: 0.5;
+    margin-right: 15px;
+}
+.main5 .container .right-side .title{
+    font-family: 'Inconsolata', monospace;
+    font-size: 30px;
+    margin: 25px 0;
+    padding-bottom: 25px;
+    font-weight: 100;
+    color: var(--main-text-color);
+    border-bottom: 1px solid var(--white-color);
+}
+.main5 .container .right-side .details{
+    font-size: 18px;
+    color: var(--main-text-color);
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    width: 90%;
+    text-align: justify;
+    margin: 25px 0;
+    padding-bottom: 25px;
+    border-bottom: 1px solid var(--white-color);
+}
+.main5 .container .right-side .more a{
+    color: var(--secondary-color);
+    font-size: 18px;
+    font-family: 'Inconsolata', monospace;
+    text-decoration: none;
+    letter-spacing: 1px;
+    display: inline-block;
+    text-transform: uppercase;
+    border: 1px solid var(--secondary-color);
+    padding: 10px 25px;
+    transition: 0.2s ease-in;
+}
+.main5 .container .right-side .more a:hover{
+    color: var(--white-color);
+    background-color: var(--secondary-color);
+}
+.main6{
+    padding: 50px 0;
+}
+.main6 a img{
+    width: 100%;
+}
+.main7{
+    background: url(../assets/theme-design/text-line.jpg) repeat-x;
+    width: 100%;
+    margin: 70px 0;
+}
+.main7 .left-side img.blogger-resources{
+    width: 75%;
+    display: block;
+    margin: auto;
+}
+
+.main7 .right-side .blog-post2 img{
+    width: 80%;
+    margin: 40px auto 22px 30px;
+}
+.main7 .right-side>img{
+    position: absolute;
+    top: 0;
+}
+.main8{
+    padding: 30px 0;
+}
+.main8 .left-side{
+    padding: 10px;
+}
+.main8 .left-side .text{
+    font-size: 25px;
+    font-weight: 100;
+    font-family: 'Inconsolata', monospace;
+    width: 70%;
+    text-align: center;
+    margin: 0 auto 45px;
+    line-height: 28px;
+}
+.main8 .left-side form input{
+    width: 100%;
+    border-bottom: 1px solid var(--primary-color);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 10px 0 5px;
+    margin-bottom: 15px;
+    color: var(--main-text-color);
+    letter-spacing: 1px;
+    outline: none;
+    font-size: 13px;
+}
+.main8 .left-side form button{
+    color: var(--white-color);
+    background: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+    width: 115px;
+    height: 30px;
+    margin: 20px 0 0;
+    font-size: 11px;
+    text-align: center;
+    padding: 0;
+    display: block;
+    text-transform: uppercase;
+    position: relative;
+    letter-spacing: 1px;
+    outline: none;
+    float: right;
+    transition: 0.2s ease-in-out;
+}
+.main8 .left-side form button:hover{
+    background: transparent;
+    color: var(--secondary-color);
+}
+.main8 .left-side form button::before{
+    content: " ";
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    right: -4px;
+    bottom: -4px;
+    border-right: 1px solid var(--secondary-color);
+    border-bottom: 1px solid var(--secondary-color);
+}
+.main8 .middle-side .subscribe{
+    background: url(../assets/theme-design/post-card.jpg) no-repeat;
+    background-size: 100% 325px;
+    width: 100%;
+    height: 325px;
+    padding: 36px 15px 0;
+    text-align: center;
+    float: left;
+    position: relative;
+    z-index: 10;
+}
+.main8 .middle-side .subscribe .title{
+    font-size: 30px;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 300;
+    color: var(--main-text-color);
+    margin: 25px 0;
+}
+.main8 .middle-side .subscribe .text{
+    font: 300;
+    color: var(--main-text-color);
+    font-family: 'Lato', sans-serif;
+    width: 95%;
+}
+.main8 .right-side img.subscribe-post{
+    margin: 0px auto 2px;
+    display: block;
+    transform: rotate(-5deg);
+    position: relative;
+    top: 60px;
+    z-index: 5;
+}
+.footer1{
+    margin-top: 20px;
+    padding: 50px 0;
+    background-color: var(--light-pink-color);
+}
+.footer1 .footer-title{
+    text-align: center;
+    color: var(--main-text-color);
+    font-family: 'Great Vibes', cursive;
+    text-transform: capitalize;
+    font-size: 65px;
+}
+.footer1 .post{
+    border: 1px solid var(--white-color);
+    padding: 25px;
+    margin: 0 auto;
+}
+.footer1 .post a img{
+    width: 100%;
+    margin: 0 auto;
+}
+.footer1 .insta-visit{
+    margin: 0 auto;
+    background-color: var(--white-color);
+    width: 250px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin: 20px auto;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+    text-transform: capitalize;
+    position: relative;
+    letter-spacing: 1px;
+    outline: none;
+    transition: 0.2s ease-in-out;
+}
+
+.footer1 .insta-visit a:hover{
+    color: var(--primary-color);
+}
+.footer1 .insta-visit a{
+    color: var(--main-text-color);
+    text-decoration: none;
+}
+.footer1 .insta-visit i{
+    font-size: 15px;
+}
+
+.footer2{
+    margin: 55px 0;
+}
+.footer2 .main-left-side .left-side ul{
+    list-style-type: none;
+    border-right: 0.1pc solid var(--light-gray-color);
+}
+.footer2 .main-left-side .left-side ul li{
+    margin-bottom: 10px;
+}
+.footer2 .main-left-side .left-side ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--main-text-color);
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+.footer2 .main-left-side .right-side {
+    border-right: 0.1pc solid var(--light-gray-color);
+    padding: 0 10px 0 0;
+    margin: 0 auto;
+}
+.footer2 .main-left-side .right-side .details{
+    margin-bottom: 25px;
+    font-size: 15px;
+    line-height: 25px;
+    color: var(--main-text-color);
+}
+.footer2 .main-left-side .right-side form input{
+    width: 100%;
+    border-bottom: 1px solid var(--primary-color);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 10px 0 5px;
+    margin-bottom: 15px;
+    color: var(--main-text-color);
+    letter-spacing: 1px;
+    outline: none;
+    font-size: 13px;
+}
+.footer2 .main-left-side .right-side form button{
+    color: var(--main-text-color);
+    background: transparent;
+    border: 1px solid var(--main-text-color);
+    width: 115px;
+    height: 30px;
+    margin: 20px 0 0;
+    font-size: 11px;
+    text-align: center;
+    padding: 0;
+    display: block;
+    text-transform: uppercase;
+    position: relative;
+    letter-spacing: 1px;
+    outline: none;
+    float: left;
+    transition: 0.2s ease-in-out;
+}
+.footer2 .main-left-side .right-side form button:hover{
+    background: var(--main-text-color);
+    color: var(--white-color);
+}
+.footer2 .main-left-side .right-side form button::before{
+    content: " ";
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    right: -4px;
+    bottom: -4px;
+    border-right: 1px solid var(--main-text-color);
+    border-bottom: 1px solid var(--main-text-color);
+}
+.footer2 .main-right-side img{
+    width: 90%;
+    float: right;
+    opacity: 0.5;
+}
+/* 
+                    Info
+
+font-family: 'Nanum Brush Script', cursive;
+cursus writing 1 -->font-family: 'Allura', cursive;
+cursus writing 2 -->font-family: 'Great Vibes', cursive;
+cursus writing 2 -->font-family: 'Tangerine', cursive;
+plane text 1     -->font-family: 'Inconsolata', monospace;
+plane text 2     -->font-family: 'Lato', sans-serif;
+
+ */
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    width: 6px;
+    height: 1px !important;
+    background-color: var(--white-color);
+}
+::-webkit-scrollbar-thumb {
+    background-color: var(--secondary-color);
+    border-radius: 15px;
+}
+::selection{
+    background-color: #5e5e5a;
+    color: var(--white-color);
+}
+:root{
+    --primary-color: #898a8a;
+    --secondary-color: #baa385;
+    --light-pink-color: #ecd5cd;
+    --light-gray-color: #dcdcdc;
+    --white-color: #ffffff;
+    --black-color: #000000;
+    --main-text-color: #73736f;
+    --secondary-text-color: #eec6c5;
+}
