@@ -10,4 +10,4 @@
 - #### ❗ ❗ ❗ - This site is only for study and practice. All right of photo and content is of <a href="https://theblondeabroad.com/">www.theblondeabroad.com</a> ...
 
 ### Preview :point_down:
-<img src="https://raw.githubusercontent.com/harshalgami13/travelbloger/main/assets/Screenshot%20(57).png">
+<a href="https://harshalgami13.github.io/travelbloger/"><img src="https://raw.githubusercontent.com/harshalgami13/travelbloger/main/assets/Screenshot%20(57).png"></a>
