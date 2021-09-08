@@ -359,7 +359,8 @@
 
 .main7 .right-side .blog-post2 img{
     width: 80%;
-    margin: 40px auto 22px 30px;
+    margin: 40px auto 22px auto;
+    display: block;
 }
 .main7 .right-side>img{
     position: absolute;
@@ -527,7 +528,7 @@
 }
 .footer2 .main-left-side .right-side {
     border-right: 0.1pc solid var(--light-gray-color);
-    padding: 0 10px 0 0;
+    padding: 10px;
     margin: 0 auto;
 }
 .footer2 .main-left-side .right-side .details{
