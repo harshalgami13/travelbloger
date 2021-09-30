@@ -1,7 +1,9 @@
 $(document).ready( function() {
+  $('.bottomnavbar').hide()
   $('.bottomnavbar-triger').click(function () {
     $('.bottomnavbar').slideToggle(500)
   })
+  $('.topnavbar').hide()
   $('.topnavbar-triger').click(function () {
     $('.topnavbar').slideToggle(500)
   })
